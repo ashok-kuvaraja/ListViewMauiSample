@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:app="clr-namespace:SimpleMauiApp"
+             x:Class="SimpleMauiApp.MainPage">
+
+    
+    <ContentPage.BindingContext>
+        <app:ViewModel />
+    </ContentPage.BindingContext>
+
+    <ListView ItemsSource="{Binding Names}" >
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <HorizontalStackLayout>
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                        <Label WidthRequest="100" Text="{Binding}" />
+                    </HorizontalStackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+</ContentPage>
+

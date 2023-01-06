@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{5DCB2DC5-4A72-427E-96BF-48136CC8D393}|Default">
+  <MonoDevelop.Ide.ItemProperties.SimpleMauiApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleMauiApp/MainPage.xaml">
+    <Files>
+      <File FileName="SimpleMauiApp/MainPage.xaml.cs" Line="11" Column="1" />
+      <File FileName="SimpleMauiApp/MainPage.xaml" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SimpleMauiApp" expanded="True">
+            <Node name="SimpleMauiApp" expanded="True">
+              <Node name="MainPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+</Properties>
